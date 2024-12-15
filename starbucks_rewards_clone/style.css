@@ -494,6 +494,26 @@ nav {
     width: 75%;
     padding-inline: var(--spacing-32);
 
+
+      
+    & > * {
+      padding-block: var(--spacing-40); 
+      @media(min-width: 768px) {
+        padding: 0;
+      }
+
+    }
+    @media(min-width: 768px) {
+      position: static;
+      translate: 0 0;
+      width: 100%;
+      padding: 0;
+      background-color: transparent;
+      display: flex;
+      box-shadow: none;
+
+    }
+
     a {
       width: max-content;
       margin-right: auto;
@@ -503,24 +523,7 @@ nav {
       }
     }
 
-      
-    @media(min-width: 768px) {
-      position: static;
-      translate: 0 0;
-      width: 100%;
-      padding: 0;
-      background-color: transparent;
-      display: flex;
-    }
-    
 
-    & > * {
-      padding-block: var(--spacing-40); 
-      @media(min-width: 768px) {
-        padding: 0;
-      }
-
-    }
 
     .pages {
       font-size: var(--fs-19);
