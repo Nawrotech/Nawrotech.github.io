@@ -1,0 +1,56 @@
+:root {
+    --ff-sans: sans-serif;
+    --ff-serif: serif;
+
+
+    --fs-200: 0.875rem;
+    --fs-300: 1rem;
+
+    --fs-400: 1.125rem;
+
+    --fs-500: 1.25rem;
+    
+    --fs-600: 1.5rem;
+    --fs-700: 2rem;
+    --fs-800: 3.75rem;
+
+    --fs-900: 7.5rem;
+
+
+    --fw-400: 400;
+    --fw-700: 700;
+
+    --borr-circle: 100vh;
+    --borr: 4px;
+
+
+    --accent-dark: #23412F;
+    --accent-light: #659477;
+    --accent: #3B8256;
+    --brown-1: #423D3C;
+    --brown-2: #383231;
+    --brown-3: #2D2726;
+    --brown-4: #292424;
+    --brown-5: #221E1E;
+    --burnt-orange: #875C36;
+    --gray: #CBC9C9;
+    --primary-light: #F7B687;
+    --primary: #F59C5C;
+    --red: #7E3E3F;
+    --teal: #377E86;
+    --white: #FFFFFF;
+
+    --clr-overlay: rgba(0,0,0,0.87);
+
+
+}
+
+@media(width > 768px) {
+    :root {
+        --fs-400: 1.25rem;
+        --fs-500: 1.5rem;
+        --fs-600: 2rem;
+        --fs-700: 3rem;
+        --fs-800: 5rem;
+    }   
+}

@@ -1,0 +1,60 @@
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.flow > * + * {
+    margin-top: var(--flow-space, 1rem);
+    @media(width: 768px) {
+        margin-top: var(--flow-space, 1.5rem);
+
+    }
+}
+
+.container {
+    max-width: min(calc(100% - 2rem), 1130px);
+    margin-inline: auto;
+}
+  
+.container-lg {
+    max-width: min(calc(100% - 2rem), 1330px);
+    margin-inline: auto;
+}
+
+.text-wrapper {
+    margin-inline: auto;
+    max-width: 710px;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+    gap: var(--split-space, 2rem);
+
+    @media(width > 768px) {
+        flex-direction: row;
+        align-items: center;
+
+        & > * {
+            flex: 1;
+        }
+
+    }
+}
